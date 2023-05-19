@@ -1,0 +1,85 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  justify-content: space-between;
+  background-color: maroon;
+  height: 10vh;
+  color:white;
+  position: sticky;
+  top: 0;
+}
+.header a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+.navigation a{
+    font-size: 1rem;
+    text-decoration: underline;
+    color: white;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    background-color: maroon;
+    color:white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-color: burlywood;
+}
+.references{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.body{
+    padding: 1rem;
+}
+.webpage div{
+    background: maroon;
+    width: 100px;
+    height: 4px;
+    border-radius: 10px;
+}
+.webpage{
+    width: 100%;
+    height: 100vh;
+    color: maroon;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background-color: transparent;
+    border: maroon solid 2px;
+    width: 20%;
+    height: 7vh;
+}
+.webpage a{
+    text-decoration: none;
+    color: maroon;
+}
+.webpage h1{
+    font-size: 4rem;    
+}
+.webpage h1, button, div{
+    margin: 10px;
+}
